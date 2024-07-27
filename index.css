@@ -52,3 +52,8 @@ section {
   aspect-ratio: 1/1;
   object-fit: cover;
 }
+
+.woman {
+  grid-area: woman;
+  aspect-ratio: 1/2;
+}

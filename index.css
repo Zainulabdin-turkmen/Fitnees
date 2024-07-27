@@ -20,4 +20,7 @@ p {
 a {
   background-color: #1a63dd;
   color: #fff;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }

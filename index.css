@@ -93,7 +93,7 @@ section {
   }
 
   .images-container {
-    /* grid-template-areas: */
+    grid-template-areas:
       "dead abs"
       "dead woman";
     /* grid-template-rows: repeat(2, 262px); */

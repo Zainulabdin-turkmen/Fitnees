@@ -74,4 +74,32 @@ section {
   body {
     margin: 180px 125px;
   }
+
+  a {
+    display: inline-block;
+    padding-left: 23px;
+    padding-right: 23px;
+  }
+  a > span {
+    margin-right: 1rem;
+  }
+
+  h1::before {
+    top: 106px;
+    left: 60px;
+  }
+  p {
+    font-size: 22px;
+  }
+
+  .images-container {
+    /* grid-template-areas: */
+      "dead abs"
+      "dead woman";
+    /* grid-template-rows: repeat(2, 262px); */
+  }
+
+  .deadlift {
+    /* grid-area: dead; */
+  }
 }

@@ -12,6 +12,18 @@ h1 {
   margin-bottom: 1.8rem;
 }
 
+h1::before {
+  content: "";
+  /* position: absolute; */
+  /* width: 150px; */
+  /* height: 150px; */
+  /* background-color: #c7d0e0; */
+  /* z-index: -1; */
+  /* top: 3rem; */
+  /* left: -2rem; */
+  /* border-radius: 10px; */
+}
+
 p {
   font-size: 1.3rem;
   margin-bottom: 3rem;

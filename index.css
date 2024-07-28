@@ -39,7 +39,7 @@ section {
 .images-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: 1fr 1fr;
   grid-template-areas:
     "dead abs"
     "woman woman";
@@ -55,5 +55,4 @@ section {
 
 .woman {
   grid-area: woman;
-  aspect-ratio: 1/2;
 }

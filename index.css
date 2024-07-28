@@ -18,7 +18,7 @@ h1::before {
   width: 150px;
   height: 150px;
   background-color: #c7d0e0;
-  /* z-index: -1; */
+  z-index: -1;
   /* top: 3rem; */
   /* left: -2rem; */
   /* border-radius: 10px; */

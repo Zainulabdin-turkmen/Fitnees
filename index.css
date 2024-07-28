@@ -105,4 +105,12 @@ section {
 }
 
 @media only screen and (min-width: 1200px) {
+  body {
+    margin: 255px 165px;
+  }
+
+  section {
+    display: flex;
+    flex-direction: row;
+  }
 }

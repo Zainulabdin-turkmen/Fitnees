@@ -103,3 +103,6 @@ section {
     grid-area: dead;
   }
 }
+
+@media only screen and (min-width: 1200px) {
+}

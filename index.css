@@ -96,7 +96,7 @@ section {
     grid-template-areas:
       "dead abs"
       "dead woman";
-    /* grid-template-rows: repeat(2, 262px); */
+    grid-template-rows: repeat(2, 262px);
   }
 
   .deadlift {

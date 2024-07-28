@@ -14,7 +14,7 @@ h1 {
 
 h1::before {
   content: "";
-  /* position: absolute; */
+  position: absolute;
   /* width: 150px; */
   /* height: 150px; */
   /* background-color: #c7d0e0; */

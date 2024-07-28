@@ -10,6 +10,7 @@ p {
 h1 {
   font-size: 2.5rem;
   margin-bottom: 1.8rem;
+  position: relative;
 }
 
 h1::before {
@@ -19,9 +20,9 @@ h1::before {
   height: 150px;
   background-color: #c7d0e0;
   z-index: -1;
-  top: 3rem;
-  left: -2rem;
   border-radius: 10px;
+  top: -5rem;
+  left: -4rem;
 }
 
 p {
@@ -85,8 +86,8 @@ section {
   }
 
   h1::before {
-    top: 106px;
-    left: 60px;
+    top: -5rem;
+    left: -4rem;
   }
   p {
     font-size: 22px;
@@ -112,5 +113,17 @@ section {
   section {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+  }
+
+  .top-container {
+    flex: 1;
+  }
+
+  .images-container {
+    grid-template-rows: 150px 150px;
+    grid-template-columns: 150px 150px;
+    justify-content: end;
+    flex: 0.8;
   }
 }
